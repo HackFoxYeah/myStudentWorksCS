@@ -1,0 +1,66 @@
+<Window x:Class="_23aya_rabota.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_23aya_rabota"
+        mc:Ignorable="d"
+        Title="23ая работа" Height="400.816" Width="800" ResizeMode="CanMinimize">
+    <Grid x:Name="grid">
+        <Button x:Name="CreateShape" Height="44" Width="139" Content="Изобразить фигуру&#xD;&#xA;   Сменить цвет" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="619,281,0,0" Cursor="Hand" Click="CreateShape_Click" BorderBrush="#FF707070" FontFamily="Courier New" IsDefault="True" ToolTip="Создаёт надпись с выбранным цветом, в случае, если надпись уже есть и выбран другой цвет, меняет цвет надписи" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF95FF76">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="1" ShadowDepth="3" RenderingBias="Quality"/>
+            </Button.Effect>
+        </Button>
+        <Canvas x:Name="canvas" HorizontalAlignment="Center" Height="284" Margin="35,52,220,0" VerticalAlignment="Top" Width="539" RenderTransformOrigin="0.5,0.5" Background="Black">
+            <Canvas.Effect>
+                <BlurEffect Radius="2"/>
+            </Canvas.Effect>
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform AngleY="-0.081"/>
+                    <RotateTransform Angle="180.06"/>
+                    <TranslateTransform X="0.001" Y="-0.492"/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+        </Canvas>
+
+        <Menu Margin="0, 0, 0, 345">
+            <MenuItem Header="Окно" Cursor="Hand" FontFamily="Courier New">
+                <MenuItem Header="Закрыть" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Программа" Cursor="Hand" FontFamily="Courier New">
+                <MenuItem Header="Создать фигуру" Click ="CreateShape_Click"/>
+                <MenuItem Header="Стереть" Click ="delete_Click"/>
+                <Separator></Separator>
+                <MenuItem Header="О программе" Click ="about_Click"/>
+            </MenuItem>
+            <MenuItem Header="Цвет" FontFamily="Courier New">
+                <RadioButton x:Name="red1" Content="Красный" HorizontalAlignment="Left"  VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" Click="red1_Click"/>
+                <RadioButton x:Name="blue1" Content="Синий" HorizontalAlignment="Left"  VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" Click="blue1_Click"/>
+                <RadioButton x:Name="green1" Content="Зелёный" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" Click="green1_Click"/>
+                <RadioButton x:Name="white1" Content="Белый" HorizontalAlignment="Left"  VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" IsChecked="True" Click="white1_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <Button x:Name="about" Content="О программе" HorizontalAlignment="Left" Margin="641,243,0,0" VerticalAlignment="Top" Width="93" Click="about_Click" FontFamily="Courier New" Cursor="Hand" Background="#FFFFDB8D">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="1" ShadowDepth="2" RenderingBias="Quality"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="delete" Content="Стереть" HorizontalAlignment="Left" Margin="649,202,0,0" VerticalAlignment="Top" Width="75" FontFamily="Courier New" Click="delete_Click" Cursor="Hand" IsCancel="True" ToolTip="Удаляет надпись" Background="#FFFF7C7C">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="1" ShadowDepth="2" RenderingBias="Quality"/>
+            </Button.Effect>
+        </Button>
+        <GroupBox Header="Выбор цвета" HorizontalAlignment="Left" Height="138" VerticalAlignment="Top" Width="97" Margin="640,51,0,0" FontFamily="Courier New">
+            <Grid HorizontalAlignment="Left" Height="116" Margin="-4,3,0,-8" VerticalAlignment="Top" Width="88">
+                <RadioButton x:Name="green" Content="Зелёный" HorizontalAlignment="Left" Margin="9,63,0,0" VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" Click="green1_Click"/>
+                <RadioButton x:Name="blue" Content="Синий" HorizontalAlignment="Left" Margin="9,36,0,0" VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand"  Click="blue1_Click"/>
+                <RadioButton x:Name="red" Content="Красный" HorizontalAlignment="Left" Margin="9,11,0,0" VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" Click="red1_Click"/>
+                <RadioButton x:Name="white" Content="Белый" HorizontalAlignment="Left" Margin="9,90,0,0" VerticalAlignment="Top" FontFamily="Courier New" Cursor="Hand" IsChecked="True" Click="white1_Click"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
