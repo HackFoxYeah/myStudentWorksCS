@@ -1,0 +1,57 @@
+<Window x:Class="_21ая_работа.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21ая_работа"
+        mc:Ignorable="d"
+        Title="21 работа" Height="450" Width="800" Icon="/@WLOGO_48x48.png" Topmost="True" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFC1FF68" Offset="1"/>
+                <GradientStop Color="#FFC4FF73" Offset="0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="DataGrid" HorizontalAlignment="Left" Height="145" Margin="21,34,0,0" VerticalAlignment="Top" Width="748" CanUserAddRows="False" CellEditEnding="CellEditEnding" ToolTip="Тело таблицы" FontFamily="Courier New" Background="#FFF0F0F0" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserDeleteRows="False"/>
+        <Button x:Name="Fill" Content="Заполнить" HorizontalAlignment="Left" Margin="21,220,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Fill_Click" Cursor="Hand" Background="#FFE987FF" ToolTip="Создаёт и заполняет таблицу случайными значениями " FontFamily="Courier New"/>
+        <Button x:Name="Clean" Content="Очистить" HorizontalAlignment="Left" Margin="96,260,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Clean_Click" Cursor="Hand" Background="#FFFFB679" ToolTip="Производит очистку таблицы" FontFamily="Courier New"/>
+        <Button x:Name="Create" Content="Создать" HorizontalAlignment="Left" Margin="171,300,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Create_Click" Cursor="Hand" Background="#FF83FFFF" ToolTip="Создаёт пустую таблицу" FontFamily="Courier New"/>
+        <Button x:Name="Calculate" Content="Рассчитать" HorizontalAlignment="Left" Margin="245,340,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Calculate_Click" Cursor="Hand" Background="#FF79FF7F" ToolTip="Задача №1" FontFamily="Courier New"/>
+        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="319,380,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Exit_Click" Cursor="Hand" Background="#FFFF9898" ToolTip="Кнопка выхода из программы" FontFamily="Courier New" IsCancel="True"/>
+        <Button x:Name="About" Content="О программе" HorizontalAlignment="Left" Margin="394,340,0,0" VerticalAlignment="Top" Width="84" Height="20" Click="About_Click" Cursor="Hand" Background="#FFE8FF81" ToolTip="Подробнее о программе" FontFamily="Courier New" IsDefault="True"/>
+        <TextBox x:Name="RangeTB" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="479,300,0,0" ToolTip="Число, в пределах которого будут генерироваться случайные значения" FontFamily="Courier New" MaxLength="4" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ColumnCountTB" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="599,340,0,0" ToolTip="Число строк, необходимое для работы кнопок слева" FontFamily="Courier New" MaxLength="9" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ResultTB" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="152,383,0,0" IsReadOnly="True" IsHitTestVisible="False" Focusable="False" ToolTip="Результат расчётов" Background="White" BorderBrush="#FF6CFF89" FontFamily="Courier New" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Кол-во столбцов" HorizontalAlignment="Left" Margin="600,238,0,0" VerticalAlignment="Top" Width="127" FontFamily="Courier New"/>
+        <Label Content="Диапазон сл. значений" HorizontalAlignment="Left" Margin="457,281,0,0" VerticalAlignment="Top" Width="161" FontFamily="Courier New"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="176,361,0,0" VerticalAlignment="Top" Width="76" FontFamily="Courier New"/>
+        <TextBox x:Name="RawCountTB" HorizontalAlignment="Left" Height="23" Margin="599,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" ToolTip="Число столбцов, необходимое для работы кнопок слева" FontFamily="Courier New" MaxLength="9" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Кол-во строк" HorizontalAlignment="Left" Margin="614,320,0,0" VerticalAlignment="Top" Width="102" FontFamily="Courier New"/>
+        <Button x:Name="Calculate_Copy" Content="Рассчитать" HorizontalAlignment="Left" Margin="245,260,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="Calculate2_Click" Cursor="Hand" Background="#FF506BFF" ToolTip="Задача №2" FontFamily="Courier New"/>
+        <TextBox x:Name="Result2TB" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="321,220,0,0" IsReadOnly="True" IsHitTestVisible="False" Focusable="False" ToolTip="Результат расчётов" Foreground="Black" Background="White" BorderBrush="#FF5983FF" FontFamily="Courier New" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Результат 2" HorizontalAlignment="Left" Margin="344,200,0,0" VerticalAlignment="Top" Width="76" FontFamily="Courier New"/>
+        <Button Content="Сохранить" FontFamily="Courier New" Cursor="Hand" HorizontalAlignment="Left" Margin="21,300,0,0" VerticalAlignment="Top" Width="75" Click="Save_Click" Background="#FFDC41FF"/>
+        <Button Content="Открыть" FontFamily="Courier New" Cursor="Hand" HorizontalAlignment="Left" Margin="96,339,0,0" VerticalAlignment="Top" Width="75" Click="Open_Click" Background="#FF9178FF"/>
+        <Menu  Height="19" VerticalAlignment="Top">
+            <MenuItem Header="Окно" BorderBrush="#FFC1C1C1" Background="#00000000"  Cursor="Hand" >
+                <MenuItem Header="О программе" Click="About_Click"  Cursor="Hand"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Выход" Click="Exit_Click"  Cursor="Hand"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Программа" BorderBrush="#FFC1C1C1" Background="#00000000"  Cursor="Hand" >
+                <MenuItem Header="Посчитать 1" Click="Calculate_Click"  Cursor="Hand"></MenuItem>                
+                <MenuItem Header="Посчитать 2" Click="Calculate2_Click"  Cursor="Hand"></MenuItem>                
+                <MenuItem Header="Заполнить" Click="Fill_Click"  Cursor="Hand"></MenuItem>               
+                <MenuItem Header="Очистить" Click="Clean_Click"  Cursor="Hand"></MenuItem>                
+                <MenuItem Header="Создать" Click="Create_Click"  Cursor="Hand"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Сохранить" Click="Save_Click"  Cursor="Hand"></MenuItem>                
+                <MenuItem Header="Открыть" Click="Open_Click"  Cursor="Hand"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
