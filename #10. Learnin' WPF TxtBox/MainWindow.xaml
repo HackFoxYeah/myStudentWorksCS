@@ -1,0 +1,52 @@
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Программа с менюшкой" Height="450" Width="263.423" Icon="SecurityAndMaintenance_Error.png" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="TextBoxInput" Margin="31,228,0,0" TextWrapping="Wrap" Text="" FontSize="30" BorderBrush="Black" HorizontalAlignment="Left" Width="94" Height="47" VerticalAlignment="Top">
+            <TextBox.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="ButtonMultiply" Content="Посчитать" ToolTip="Главная кнопа программы, производит расчёт" Margin="46,294,0,0" Click="ButtonMultiply_Click" IsDefault="True" FontSize="20" BorderBrush="#FF545454" Background="#FFA9FF9D" Cursor="Hand" HorizontalAlignment="Left" Width="164" Height="60" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <TextBox x:Name="TextBoxOutput" Margin="31,55,0,0" TextWrapping="Wrap" Text="" IsReadOnly="True" BorderBrush="Black" Focusable="False" IsTabStop="False" AllowDrop="False" HorizontalAlignment="Left" Width="195" Height="122" VerticalAlignment="Top">
+            <TextBox.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="TextBoxOutput2" Margin="139,228,0,0" TextWrapping="Wrap" Text="" IsReadOnly="True" FontSize="30" BorderBrush="Black" Focusable="False" IsTabStop="False" AllowDrop="False" HorizontalAlignment="Left" Width="89" Height="47" VerticalAlignment="Top">
+            <TextBox.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="Exit" Content="Выход" ToolTip="Закрытие программы" Margin="145,369,0,0" Click="Exit_Click" BorderBrush="#FF545454" Background="#FFFF9595" IsCancel="True" Cursor="Hand" Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" Width="72">
+            <Button.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="About" Content="О программе" Margin="40,369,0,0" ToolTip="Информация о программе" Click="About_Click" BorderBrush="#FF545454" Background="#FFF8FF78" Cursor="Hand" HorizontalAlignment="Left" Width="88" Height="27" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect RenderingBias="Quality" BlurRadius="0" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Label Content="Сгенерированные числа" HorizontalAlignment="Left" Margin="60,27,0,0" VerticalAlignment="Top"/>
+        <Label Content="Произведение сгенерированных чисел" Margin="16,199,0,0" HorizontalAlignment="Left" Width="227" Height="26" VerticalAlignment="Top"/>
+        <Menu  Height="23" VerticalAlignment="Top" Margin="3,0,0,0">
+            <MenuItem Header="Программа" BorderBrush="#FFC1C1C1" Background="#00000000"  Cursor="Hand" >
+                <MenuItem Header="Посчитать" Click="ButtonMultiply_Click"  Cursor="Hand"></MenuItem>
+                <MenuItem Header="Выход" Click="Exit_Click"  Cursor="Hand"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="О программе" Click="About_Click"  Cursor="Hand"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
