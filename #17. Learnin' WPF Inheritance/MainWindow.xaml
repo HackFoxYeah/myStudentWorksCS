@@ -1,0 +1,40 @@
+<Window x:Class="_26aya_rabota.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_26aya_rabota"
+        mc:Ignorable="d"
+        Title="Работа №26" Height="450" Width="800" Initialized="Window_Initialized">
+    <Grid Margin="0,1,0,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="MoveLineBTN" Content="Линия" HorizontalAlignment="Left" Margin="685,83,0,0" VerticalAlignment="Top" Width="73" Click="MoveLine_Click" Cursor="Hand" Height="22" FontFamily="Courier New"/>
+        <Canvas x:Name="canvas" Margin="30,34,125,62" Background="Black" RenderTransformOrigin="0.5,0.5">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform AngleX="-0.748"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.862"/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+        </Canvas>
+        <TextBox x:Name="XTB" HorizontalAlignment="Left" Margin="685,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" Height="22" FontSize="16" Text="12" FontFamily="Courier New" TextAlignment="Center"/>
+        <TextBox x:Name="YTB" HorizontalAlignment="Left" Margin="685,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" Height="22" FontSize="16" FontFamily="Courier New" Text="12" TextAlignment="Center"/>
+        <Label x:Name="errorLabel" Content="Введены некорректные координаты!" HorizontalAlignment="Left" Margin="29,314,0,0" VerticalAlignment="Top" Width="495" Foreground="Red" Height="50" FontSize="24" Visibility="Hidden" FontFamily="Courier New"/>
+        <Button x:Name="HideBTN" Content="Скрыть" HorizontalAlignment="Left" Margin="685,197,0,0" VerticalAlignment="Top" Click="HideBTN_Click" Cursor="Hand" Width="73" Height="23" FontFamily="Courier New"/>
+        <Button x:Name="ShowBTN" Content="Показать" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ShowBTN_Click" Cursor="Hand" Width="73" Height="21" Margin="685,170,0,0" FontFamily="Courier New"/>
+        <Button x:Name="BoxMoveBTN" Content="Контур" HorizontalAlignment="Left" Margin="685,112,0,0" VerticalAlignment="Top" Click="BoxMoveBTN_Click" Cursor="Hand" RenderTransformOrigin="0.422,0.503" Width="73" Height="21" FontFamily="Courier New" FontWeight="Normal" FontStyle="Normal"/>
+        <Button x:Name="FilledBoxMove" Content="Заливной" HorizontalAlignment="Left" Margin="685,140,0,0" VerticalAlignment="Top" Click="FilledBoxMove_Click" Cursor="Hand" Width="73" Height="21" FontFamily="Courier New"/>
+        <Button x:Name="AboutBTN" Content="О программе" HorizontalAlignment="Left" Margin="674,228,0,0" VerticalAlignment="Top" Width="95" Height="22" Cursor="Hand" FontFamily="Courier New" FontWeight="Normal" Click="AboutBTN_Click"/>
+        <Button x:Name="ExitBTN" Content="Выход" HorizontalAlignment="Left" Margin="685,257,0,0" VerticalAlignment="Top" Width="73" Height="22" Cursor="Hand" FontFamily="Courier New" Click="ExitBTN_Click"/>
+        <Label x:Name="errorLabelAbout" Content="Практическая работа №26 &#xD;&#xA;Выполнил студент группы ИСП-21&#xD;&#xA;Капустин Максим&#xD;&#xA;Задание: описать иерархию классов состоящую из:&#xD;&#xA;Линия - Четырёхугольник - Закрашенный четырёхугольник" HorizontalAlignment="Left" Margin="30,33,0,0" VerticalAlignment="Top" Foreground="#FFE6FF00" Height="115" Width="573" FontFamily="Courier New" FontSize="16" Visibility="Hidden"/>
+        <Button x:Name="UpBTN" Content="Вверх" HorizontalAlignment="Left" Margin="705,297,0,0" VerticalAlignment="Top" Click="UpBTN_Click"/>
+        <Button x:Name="DownBTN" Content="Вниз" HorizontalAlignment="Left" Margin="705,346,0,0" VerticalAlignment="Top" Width="36" Click="DownBTN_Click"/>
+        <Button x:Name="RightBTN" Content="--&gt;" HorizontalAlignment="Left" Margin="746,322,0,0" VerticalAlignment="Top" Click="RightBTN_Click"/>
+        <Button x:Name="LeftBTN" Content="&lt;--" HorizontalAlignment="Left" Margin="679,322,0,0" VerticalAlignment="Top" Click="LeftBTN_Click"/>
+
+    </Grid>
+</Window>
