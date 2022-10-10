@@ -1,0 +1,43 @@
+﻿<Window x:Class="практическаяРабота_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практическаяРабота_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="-1,0,1,0">
+        <Button x:Name="buttonCalculate" Content="Посчитать" HorizontalAlignment="Left" Margin="30,237,0,0" VerticalAlignment="Top" Click="buttonCalculate_Click" Cursor="Hand"/>
+        <DataGrid x:Name="dataTable" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="25,56,32,217" CellEditEnding="dataTable_CellEditEnding" Cursor="Hand"/>
+        <DataGrid HorizontalAlignment="Left" Height="0" Margin="97,54,0,0" VerticalAlignment="Top" Width="4" d:ItemsSource="{d:SampleData ItemCount=5}" IsSynchronizedWithCurrentItem="True"/>
+        <TextBox x:Name="textBoxOutput" IsReadOnly="True" HorizontalAlignment="Left" Margin="392,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Произведение чисел " HorizontalAlignment="Left" Margin="388,217,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonRandFill" Content="Заполнить" HorizontalAlignment="Left" Margin="30,271,0,0" VerticalAlignment="Top" Click="buttonRandFill_Click" Cursor="Hand"/>
+        <TextBox x:Name="textBoxRandom" HorizontalAlignment="Left" Margin="210,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28"/>
+        <Label Content="Верхний предел &#xD;&#xA;генерации чисел" HorizontalAlignment="Left" Margin="106,271,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во строк" HorizontalAlignment="Left" Margin="109,328,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxArrLength" HorizontalAlignment="Left" Margin="210,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="label111" Visibility="Hidden" Content="Введены &#xD;&#xA;некорректные&#xD;&#xA;значения!" HorizontalAlignment="Left" Margin="261,275,0,0" VerticalAlignment="Top" FontSize="20" Background="#FFE8E8E8" Foreground="Red"/>
+        <Button x:Name="buttonClear" Content="Очистить" HorizontalAlignment="Left" Margin="32,305,0,0" VerticalAlignment="Top" Click="buttonClear_Click" Cursor="Hand"/>
+        <Button x:Name="buttonSave" Content="Сохранить" HorizontalAlignment="Left" Margin="29,339,0,0" VerticalAlignment="Top" Click="buttonSave_Click" Cursor="Hand"/>
+        <Button x:Name="buttonOpen" Content="Открыть" HorizontalAlignment="Left" Margin="34,372,0,0" VerticalAlignment="Top" Click="buttonOpen_Click" Cursor="Hand"/>
+        <Menu Margin="0,0,0,390" Cursor="Hand">
+            <MenuItem Width="43" Height="21" Header="Файл">
+                <MenuItem Width="133" Height="21" Header="Открыть" Click="buttonOpen_Click"/>
+                <MenuItem Width="143" Height="21" Header="Сохранить" Click="buttonSave_Click"/>
+            </MenuItem>
+            <MenuItem Width="76" Height="21" Header="Программа">
+                <MenuItem Width="150" Height="21" Header="Посчитать" Click="buttonCalculate_Click"/>
+                <MenuItem Width="150" Height="21" Header="Заполнить" Click="buttonRandFill_Click"/>
+                <MenuItem Width="150" Height="21" Header="Очистить" Click="buttonClear_Click"/>
+            </MenuItem>
+            <MenuItem Width="47" Height="21" Header="Выход" Click="menuItemButtonExit_Click"/>
+        </Menu>
+        <TextBox x:Name="textBoxColumn" HorizontalAlignment="Left" Margin="210,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28"/>
+        <Label Content="Кол-во столбцов" HorizontalAlignment="Left" Margin="106,376,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxOutput_Copy" IsReadOnly="True" HorizontalAlignment="Left" Margin="260,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Сумма чисел " HorizontalAlignment="Left" Margin="277,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxOutput_Copy1"  HorizontalAlignment="Left" Margin="210,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28"/>
+        <Label Content="Номер столбца" HorizontalAlignment="Left" Margin="106,234,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

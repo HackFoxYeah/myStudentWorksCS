@@ -1,0 +1,18 @@
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\bin\Debug\Librarar_2.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\bin\Debug\Librarar_2.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\obj\Debug\Lib_3.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\obj\Debug\Lib_3.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\obj\Debug\Librarar_2.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\Librarar_2\obj\Debug\Librarar_2.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\bin\Debug\Librarar_2.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\bin\Debug\Librarar_2.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\obj\Debug\Lib_3.csproj.AssemblyReference.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\obj\Debug\Lib_3.csproj.CoreCompileInputs.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\obj\Debug\Librarar_2.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\Librarar_2\obj\Debug\Librarar_2.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\bin\Debug\Librarar_2.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\bin\Debug\Librarar_2.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\obj\Debug\Lib_3.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\obj\Debug\Lib_3.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\obj\Debug\Librarar_2.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\Librarar_2\obj\Debug\Librarar_2.pdb

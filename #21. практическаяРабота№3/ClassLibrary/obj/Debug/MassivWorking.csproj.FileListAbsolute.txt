@@ -1,0 +1,18 @@
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\obj\Debug\MassivWorking.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\obj\Debug\MassivWorking.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\obj\Debug\MassivWorking.csproj.AssemblyReference.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\obj\Debug\MassivWorking.csproj.CoreCompileInputs.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\obj\Debug\MassivWorking.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\obj\Debug\MassivWorking.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\ClassLibrary\obj\Debug\ClassLibrary.pdb

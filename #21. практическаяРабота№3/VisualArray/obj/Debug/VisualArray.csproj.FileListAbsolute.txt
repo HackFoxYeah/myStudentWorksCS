@@ -1,0 +1,24 @@
+C:\Users\исп-31.RSSK\Desktop\VisualArray\bin\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\VisualArray\bin\Debug\VisualArray.pdb
+C:\Users\исп-31.RSSK\Desktop\VisualArray\obj\Debug\VisualArray.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\VisualArray\obj\Debug\VisualArray.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\VisualArray\obj\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\VisualArray\obj\Debug\VisualArray.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\bin\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\bin\Debug\VisualArray.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\obj\Debug\VisualArray.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\obj\Debug\VisualArray.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\obj\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\Капустин ИСП-31 пр2\прктическаяНомерДва\VisualArray\obj\Debug\VisualArray.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\bin\Debug\VisualArray.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\bin\Debug\VisualArray.pdb
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.csproj.AssemblyReference.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.csproj.CoreCompileInputs.cache
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.dll
+C:\Users\ИСП-21.RSSK\Desktop\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\bin\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\bin\Debug\VisualArray.pdb
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.dll
+C:\Users\исп-31.RSSK\Desktop\Капустин ИСП-31\Кодинг\практическаяРабота№3\VisualArray\obj\Debug\VisualArray.pdb
