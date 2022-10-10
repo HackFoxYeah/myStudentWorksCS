@@ -1,6 +1,0 @@
-E:\практическаяРабота№1\Lib_2\bin\Debug\Lib_2.dll
-E:\практическаяРабота№1\Lib_2\bin\Debug\Lib_2.pdb
-E:\практическаяРабота№1\Lib_2\obj\Debug\Lib_2.csproj.AssemblyReference.cache
-E:\практическаяРабота№1\Lib_2\obj\Debug\Lib_2.csproj.CoreCompileInputs.cache
-E:\практическаяРабота№1\Lib_2\obj\Debug\Lib_2.dll
-E:\практическаяРабота№1\Lib_2\obj\Debug\Lib_2.pdb
