@@ -1,0 +1,6 @@
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\bin\Debug\PairLib.dll
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\bin\Debug\PairLib.pdb
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\obj\Debug\PairLib.csproj.AssemblyReference.cache
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\obj\Debug\PairLib.csproj.CoreCompileInputs.cache
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\obj\Debug\PairLib.dll
+C:\Users\исп-31.RSSK\Desktop\практическаяРабота№6\PairLib\obj\Debug\PairLib.pdb
