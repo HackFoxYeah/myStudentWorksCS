@@ -1,0 +1,32 @@
+﻿<Window x:Class="практическаяРабота_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практическаяРабота_5"
+        mc:Ignorable="d"
+        Title="Практическая номер пять" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="buttonShow" Content="Вывести пары чисел" HorizontalAlignment="Left" Margin="270,226,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Height="35" Width="130" Click="ButtonShow_Click" Cursor="Hand" />
+        <Rectangle HorizontalAlignment="Center" Height="366" Stroke="Black" VerticalAlignment="Center" Width="750" Fill="#FFA4A4A4"/>
+        <Rectangle HorizontalAlignment="Center" Height="336" Stroke="#FFC1C1C1" VerticalAlignment="Center" Width="710" Fill="White"/>
+        <TextBox x:Name="textBoxFF" HorizontalAlignment="Left" Margin="99,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="33" FontSize="18" TextAlignment="Center"/>
+        <TextBox x:Name="textBoxSF" HorizontalAlignment="Left" Margin="99,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="35" TextAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="textBoxResults" IsReadOnly="True" HorizontalAlignment="Left" Margin="424,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Height="285" BorderBrush="#FF054600" Background="Black" Foreground="#FF00FF04"/>
+        <Button x:Name="buttonSetFirst" Content="Задать первую" HorizontalAlignment="Left" Margin="270,82,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Height="35" Width="130" Click="ButtonSetFirst_Click" Cursor="Hand" />
+        <Button x:Name="buttonSetSecond" Content="Задать вторую" HorizontalAlignment="Left" Margin="270,130,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Height="35" Width="130" Click="ButtonSetSecond_Click" Cursor="Hand" />
+        <Button x:Name="buttonSetThird" Content="Задать третью" HorizontalAlignment="Left" Margin="270,177,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Height="35" Width="130" Click="ButtonSetThird_Click" Cursor="Hand" />
+        <Label Content="Первое число в паре" HorizontalAlignment="Left" Margin="79,77,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Второе число в паре" HorizontalAlignment="Left" Margin="79,149,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="buttonSum" Content="Сложить все пары чисел" HorizontalAlignment="Left" Margin="84,237,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Height="35" Width="155" Click="ButtonSum_Click" Cursor="Hand" />
+        <Button x:Name="buttonIncrement" Content="Увеличить все пары чисел на 1" HorizontalAlignment="Left" Margin="67,323,0,0" VerticalAlignment="Top" Height="32" Width="196" Click="buttonIncrement_Click" Cursor="Hand"/>
+        <Button x:Name="buttonGetZero" Content="Обнулить все пары чисел" HorizontalAlignment="Left" Margin="82,281,0,0" VerticalAlignment="Top" Height="35" Width="160" Click="buttonGetZero_Click" Cursor="Hand"/>
+        <Label Content="Пр№5 Капустин Максим ИСП-31" HorizontalAlignment="Left" Margin="22,-1,0,0" VerticalAlignment="Top" Foreground="#FF2BFF00"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="306,317,0,0" VerticalAlignment="Top" Height="25" Width="65" Click="ButtonExit_Click"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="292,274,0,0" VerticalAlignment="Top" Height="30" Width="90" Click="ButtonAbout_Click"/>
+
+    </Grid>
+</Window>
