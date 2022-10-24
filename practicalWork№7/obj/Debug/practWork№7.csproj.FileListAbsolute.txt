@@ -1,0 +1,6 @@
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\practWork№7.csproj.AssemblyReference.cache
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\practWork№7.csproj.SuggestedBindingRedirects.cache
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\MainWindow.g.cs
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\App.g.cs
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\practWork�7_MarkupCompile.cache
+C:\Users\MaxDevOps\Desktop\practWork№7\obj\Debug\practWork�7_MarkupCompile.lref
