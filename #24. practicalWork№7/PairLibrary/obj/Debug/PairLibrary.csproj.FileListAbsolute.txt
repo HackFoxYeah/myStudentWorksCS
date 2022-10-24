@@ -1,0 +1,24 @@
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\bin\Debug\PairLibrary.dll
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\bin\Debug\PairLibrary.pdb
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.AssemblyReference.cache
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\obj\Debug\PairLibrary.dll
+C:\Users\MaxDevOps\Desktop\practWork№7\PairLibrary\obj\Debug\PairLibrary.pdb
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.dll
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.pdb
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.AssemblyReference.cache
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.dll
+C:\Users\MaxDevOps\Desktop\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.pdb
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.dll
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.pdb
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.AssemblyReference.cache
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.CoreCompileInputs.cache
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.dll
+D:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.pdb
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.dll
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\bin\Debug\PairLibrary.pdb
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.AssemblyReference.cache
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.csproj.CoreCompileInputs.cache
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.dll
+E:\Капустин ИСП-31\Кодинг\practicalWork№7\PairLibrary\obj\Debug\PairLibrary.pdb
